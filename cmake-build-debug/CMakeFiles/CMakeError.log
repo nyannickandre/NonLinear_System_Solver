@@ -1,0 +1,199 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_2534e\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_2534e.dir\build.make /nologo -L                  CMakeFiles\cmTC_2534e.dir\build
+Building C object CMakeFiles/cmTC_2534e.dir/CheckIncludeFile.c.obj
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @C:\Users\NEYPAT~1\AppData\Local\Temp\nmDA54.tmp
+CheckIncludeFile.c
+C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Impossible d'ouvrir le fichier include : 'pthread.h' : No such file or directory
+NMAKE : fatal error U1077: 'C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe'á: code retour '0x2'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX86\x86\nmake.exe"'á: code retour '0x2'
+Stop.
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/W3
+Id flags:  
+
+The output was:
+Le fichier spécifié est introuvable
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/W3
+Id flags: -c 
+
+The output was:
+Le fichier spécifié est introuvable
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/W3
+Id flags: -Aa 
+
+The output was:
+Le fichier spécifié est introuvable
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/W3
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+Le fichier spécifié est introuvable
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/W3
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+Le fichier spécifié est introuvable
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+Le fichier spécifié est introuvable
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+Le fichier spécifié est introuvable
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+Le fichier spécifié est introuvable
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+Le fichier spécifié est introuvable
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+Le fichier spécifié est introuvable
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/W3;/GR;/EHsc
+Id flags:  
+
+The output was:
+Le fichier spécifié est introuvable
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/W3;/GR;/EHsc
+Id flags: -c 
+
+The output was:
+Le fichier spécifié est introuvable
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/W3;/GR;/EHsc
+Id flags: --c++ 
+
+The output was:
+Le fichier spécifié est introuvable
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/W3;/GR;/EHsc
+Id flags: --ec++ 
+
+The output was:
+Le fichier spécifié est introuvable
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/W3;/GR;/EHsc
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+Le fichier spécifié est introuvable
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+Le fichier spécifié est introuvable
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+Le fichier spécifié est introuvable
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+Le fichier spécifié est introuvable
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+Le fichier spécifié est introuvable
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+Le fichier spécifié est introuvable
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":

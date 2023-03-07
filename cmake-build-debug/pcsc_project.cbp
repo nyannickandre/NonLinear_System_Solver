@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pcsc_project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\googletest\;CMake Files\googletest\googlemock\;CMake Files\googletest\googlemock\cmake\;CMake Files\googletest\googletest\;CMake Files\googletest\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pcsclib">
+				<Option output="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/pcsclib.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/./src"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 pcsclib"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pcsclib/fast">
+				<Option output="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/pcsclib.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/./src"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 pcsclib/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test_Chords">
+				<Option output="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/Test_Chords.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/./src"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 Test_Chords"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test_Chords/fast">
+				<Option output="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/Test_Chords.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/./src"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 Test_Chords/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test_FixedPoint">
+				<Option output="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/Test_FixedPoint.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/./src"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 Test_FixedPoint"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test_FixedPoint/fast">
+				<Option output="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/Test_FixedPoint.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/./src"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 Test_FixedPoint/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 list_install_components"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pcsc_main">
+				<Option output="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/pcsc_main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/./src"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 pcsc_main"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pcsc_main/fast">
+				<Option output="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/pcsc_main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/./src"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 pcsc_main/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test_Function">
+				<Option output="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/Test_Function.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/./src"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 Test_Function"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test_Function/fast">
+				<Option output="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/Test_Function.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/./src"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 Test_Function/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test_Bisection">
+				<Option output="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/Test_Bisection.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/./src"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 Test_Bisection"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test_Bisection/fast">
+				<Option output="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/Test_Bisection.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/./src"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 Test_Bisection/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test_Newton">
+				<Option output="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/Test_Newton.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/./src"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 Test_Newton"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test_Newton/fast">
+				<Option output="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/Test_Newton.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/./src"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 Test_Newton/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 install/local"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 install"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/lib/gmock_maind.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googlemock/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googlemock"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googlemock\Makefile VERBOSE=1 gmock_main"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googlemock\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googlemock\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googlemock\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/lib/gmock_maind.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googlemock/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googlemock"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googlemock\Makefile VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googlemock\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googlemock\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googlemock\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/lib/gmockd.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googlemock/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googlemock"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googlemock\Makefile VERBOSE=1 gmock"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googlemock\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googlemock\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googlemock\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/lib/gmockd.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googlemock/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googlemock"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googlemock\Makefile VERBOSE=1 gmock/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googlemock\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googlemock\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googlemock\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/lib/gtestd.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googletest\Makefile VERBOSE=1 gtest"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googletest\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googletest\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googletest\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/lib/gtestd.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googletest\Makefile VERBOSE=1 gtest/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googletest\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googletest\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googletest\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/lib/gtest_maind.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googletest\Makefile VERBOSE=1 gtest_main"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googletest\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googletest\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googletest\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/lib/gtest_maind.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/cmake-build-debug/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest/include"/>
+					<Add directory="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googletest\Makefile VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googletest\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googletest\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Neypatraiky\Documents\EPFL\GC-MA\MA1\PCSC\pcsc_project\cmake-build-debug\googletest\googletest\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googlemock/src/gmock-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest/src/gtest-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/main.cpp">
+			<Option target="pcsc_main"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/BisectionMethod.cpp">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/BisectionMethod.h">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/ChordsMethod.cpp">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/ChordsMethod.h">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/CosFunction.cpp">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/CosFunction.h">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/ExpFunction.cpp">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/ExpFunction.h">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/FixedPoint.cpp">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/FixedPoint.h">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/Function.cpp">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/Function.h">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/Function2D.cpp">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/Function2D.h">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/IterativeMethod.cpp">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/IterativeMethod.h">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/LogFunction.cpp">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/LogFunction.h">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/NewtonMethod.cpp">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/NewtonMethod.h">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/NonLinearEquation.cpp">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/NonLinearEquation.h">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/NonLinearSystem.cpp">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/NonLinearSystem.h">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/SinFunction.cpp">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/src/SinFunction.h">
+			<Option target="pcsclib"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/test/Bisection_test.cpp">
+			<Option target="Test_Bisection"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/test/Chords_test.cpp">
+			<Option target="Test_Chords"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/test/FixedPoint_test.cpp">
+			<Option target="Test_FixedPoint"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/test/Function_test.cpp">
+			<Option target="Test_Function"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/test/Newton_test.cpp">
+			<Option target="Test_Newton"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest\"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest\googlemock\"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\googletest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\googletest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Neypatraiky/Documents/EPFL/GC-MA/MA1/PCSC/pcsc_project/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\googletest\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
